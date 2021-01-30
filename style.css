@@ -1,0 +1,48 @@
+q{color: #FFC628;}
+#money{
+  color : #E17CC4;
+  font-weight: bolder;
+  font-style: oblique;}
+h1{text-align: center;}
+body{
+  background: #c7b39b url(https://topmoney100.tdspedia.com/imgs/casino/8_poker_room_bgrd2.jpg); /* Цвет фона и путь к файлу */
+  color: #fff; /* Цвет текста */
+  background-position: center center;
+  background-size: cover;
+  background-repeat: no-repeat;
+
+  flex-direction: column;  }
+marquee{
+  color: #FFC628;
+  font-size: 20px;
+}
+footer{
+  padding-top: 16%;
+  color: white; font-style: oblique;}
+main{padding-left: 20px;}
+h3{text-align: center;}
+
+#button1{
+  color:white;
+  font-size: 50px;
+  padding: .5em 1.5em;
+  border-radius: 5px;
+  background: rgb(53, 167, 110);
+  text-decoration: none;
+  border-style:double;}
+#button1:hover{color:#FFC628;}
+html{overflow: hidden;}
+#more{
+  text-decoration: none;
+  font-size: 18px;
+  font-family: cursive;
+  color: #FFC628;
+}
+#more:hover{
+  color: blue;
+}
+#text{
+  font-style: italic;
+  font-weight: bolder;
+}
+#gifka{ border-radius: 50%;}

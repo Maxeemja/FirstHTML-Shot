@@ -1,0 +1,10 @@
+body{
+    color: #fff;
+    background: url(https://static.wikia.nocookie.net/gta/images/8/8c/Casinofourdragon.jpg/revision/latest?cb=20150116111723&path-prefix=ru);
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    min-height: 100vh;
+    flex-direction: column;
+}
+html{overflow: hidden;}

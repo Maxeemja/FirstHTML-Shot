@@ -1,0 +1,17 @@
+body{
+  background: #c7b39b url(https://topmoney100.tdspedia.com/imgs/casino/8_poker_room_bgrd2.jpg); /* Цвет фона и путь к файлу */
+  color: #fff; /* Цвет текста */
+  background-position: center center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  min-height: 100vh;
+  flex-direction: column;  }
+
+#back{text-decoration:overline; color:white;}
+#pr{
+  text-decoration: underline;
+}
+li{
+  font-size: 20px;
+}
+h2{color:#FFC628;}
