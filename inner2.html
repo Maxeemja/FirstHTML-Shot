@@ -12,30 +12,22 @@
       <marquee behavior="scroll" direction="right" style="color:#F4CA16; font-family:italic; ">Играй-играй , но родных не забывай!</marquee>
     </header>
     <main>
-      <h1 style="text-align:center;">Казино "Рембаза Рояль"</h1>
+      <h1 style="text-align:center;">Регистрация в казино "Рембаза Рояль"</h1>
       <section style="text-align:center;">
-        <h2><div style="font-family:georgia;">
-          Таблица игроков
-        </div><br>
-        <table border="2" cellpadding="5" bordercolor="#F4CA16" align="center" width="400px"  style="font-family:georgia;" >
-        <tr>
-          <td>1</td><td>Максымджа</td>
-        </tr>
-        <tr>
-          <td>2</td><td>Антонио Бандерас</td>
-        </tr>
-        <tr>
-          <td>3</td><td>Вова Гала</td>
-        </tr>
-        <tr>
-          <td>4</td><td>Грыша Горылла</td>
-        </tr>
-        <tr>
-          <td>5</td><td>Хара</td>
-        </tr>
-        </table>
-      </h2>
-    </section>
+      <form onsubmit="check_form(this)"   id="main-form">
+        <label for="name">Имя(Погоняло):</label>
+        <input type="text" name="name"><br><br>
+        <label for="pass">Пассворд:</label>
+        <input type="password" name="pass"><br><br>
+        <label for="repass">Повторите пароль:</label>
+        <input type="password" name="repass" ><br><br>
+        
+        <button type="submit" name="button">Подтвердить</button>
+      </form>
+      <script type="text/javascript" src="form-script.js">
+
+      </script>
+      </section>
 
     </main>
     <footer>
